@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Inter', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e0c0f0;
+}
+
+body {
+    background-color: #e4e0c0f0;
+}
+
+.white {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e4e0c0f0;
+}
+
+.uppercontainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid black;
+    background-color: cornsilk;
+}
+
+.black {
+    padding: 30px 50px;
+    background-color: #e4e0c0f0;
+    color: rgb(97, 14, 14);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.inputcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputcontainer input {
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(70, 25, 25);
+    font-size: 1rem;
+    background-color: cornsilk;
+}
+
+input:focus {
+    outline: none;
+}
+
+.inputcontainer button {
+    padding: 8px 20px;
+    align-self: flex-start;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.result {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    background-color: rgb(5, 2, 12)
+}
+
+.lonspan {
+    display: flex;
+    gap: 10rem;
+}
+
+.resultcontainer {
+    display: none;
+}
+
+.error {
+    display: none;
+    color: white;
+}
+
+.btn {
+    cursor: pointer;
+
+    color: rgb(19, 24, 22);
+    background-color: darkgray;
+}
